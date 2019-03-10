@@ -1,68 +1,46 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Objective
 
-In the project directory, you can run:
+Create an react app with UI/UX principles using the main requirements
 
-### `npm start`
+### USER STORY
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Development of cross-platform websites for our apps
+Development of management systems for the administration of marketing campaigns
+Preferably using technologies as:
+js, ES6, Babel, Webpack, Redux, Functional JS HTML and SCSS
+Continuous development of features
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Inpiration
+Home Page
+https://www.your-now.com/
 
-### `npm test`
+UI
+https://material-ui.com/
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Create freenow color palette
 
-### `npm run build`
+https://in-your-saas.github.io/material-ui-theme-editor/
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Media
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+Parking
+https://www.pexels.com/photo/parking-multi-storey-car-park-6517/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Taxi
+https://www.pexels.com/photo/above-action-bokeh-business-590059/
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Charge
+https://www.pexels.com/photo/alternative-auto-automobile-battery-110844/
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Share
+https://www.pexels.com/photo/cars-parked-along-way-6147/
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Reach
+    https://www.pexels.com/photo/forced-perspective-photography-of-cars-running-on-road-below-smartphone-799443/
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
