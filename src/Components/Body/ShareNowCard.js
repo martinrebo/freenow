@@ -4,6 +4,7 @@ import { withStyles } from '@material-ui/core/styles';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import Typography from '@material-ui/core/Typography';
 import share from './media/share.jpg';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 
 const styles = theme => ({
@@ -12,6 +13,9 @@ const styles = theme => ({
     flexWrap: 'wrap',
     minWidth: 100,
     width: '100%',
+  },
+  link: {
+    color: "#fff",
   },
   image: {
     position: 'relative',
@@ -67,6 +71,7 @@ const styles = theme => ({
   },
   imageTitle: {
     position: 'relative',
+    backgroundColor: 'rgba(0,0,0,0.5)',
     padding: `${theme.spacing.unit * 2}px ${theme.spacing.unit * 4}px ${theme.spacing.unit + 6}px`,
   },
   imageMarked: {
@@ -105,11 +110,11 @@ function ShareNowCard(props) {
           <span className={classes.imageButton}>
             <Typography
               component="span"
-              variant="subtitle1"
+              variant="h4"
               color="inherit"
               className={classes.imageTitle}
             >
-              SHARE
+              <Link to="/share/" style={{ textDecoration: 'none', color: "#fff" }}>SHARE</Link> 
               <span className={classes.imageMarked} />
             </Typography>
           </span>

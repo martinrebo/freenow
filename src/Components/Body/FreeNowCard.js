@@ -4,6 +4,7 @@ import { withStyles } from '@material-ui/core/styles';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import Typography from '@material-ui/core/Typography';
 import free from './media/free.jpeg';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 
 const styles = theme => ({
@@ -12,6 +13,10 @@ const styles = theme => ({
     flexWrap: 'wrap',
     minWidth: 100,
     width: '100%',
+  },
+  link: {
+    textDecoration: 'none',
+    color: '#fff'
   },
   image: {
     position: 'relative',
@@ -67,6 +72,7 @@ const styles = theme => ({
   },
   imageTitle: {
     position: 'relative',
+    backgroundColor: 'rgba(0,0,0,0.5)',
     padding: `${theme.spacing.unit * 2}px ${theme.spacing.unit * 4}px ${theme.spacing.unit + 6}px`,
   },
   imageMarked: {
@@ -86,34 +92,34 @@ function ButtonBases(props) {
 
   return (
     <div className={classes.root}>
-        <ButtonBase
-          focusRipple
-          key="free"
-          className={classes.image}
-          focusVisibleClassName={classes.focusVisible}
+      <ButtonBase
+        focusRipple
+        key="free"
+        className={classes.image}
+        focusVisibleClassName={classes.focusVisible}
+        style={{
+          width: "100%",
+        }}
+      >
+        <span
+          className={classes.imageSrc}
           style={{
-            width: "100%",
+            backgroundImage: `url(${free})`,
           }}
-        >
-          <span
-            className={classes.imageSrc}
-            style={{
-              backgroundImage: `url(${free})`,
-            }}
-          />
-          <span className={classes.imageBackdrop} />
-          <span className={classes.imageButton}>
-            <Typography
-              component="span"
-              variant="subtitle1"
-              color="inherit"
-              className={classes.imageTitle}
-            >
-              FREE
-              <span className={classes.imageMarked} />
-            </Typography>
-          </span>
-        </ButtonBase>
+        />
+        <span className={classes.imageBackdrop} />
+        <span className={classes.imageButton}>
+          <Typography
+            component="span"
+            variant="h4"
+            color="inherit"
+            className={classes.imageTitle}
+          >
+            <Link to="/free/" style={{ textDecoration: 'none', color: "#fff" }}>FREE</Link>
+            <span className={classes.imageMarked} />
+          </Typography>
+        </span>
+      </ButtonBase>
     </div>
   );
 }
