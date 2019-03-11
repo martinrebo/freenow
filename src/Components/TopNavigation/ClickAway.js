@@ -6,6 +6,7 @@ import Paper from '@material-ui/core/Paper';
 import grey from '@material-ui/core/colors/grey';
 import MenuIcon from '@material-ui/icons/Menu';
 import Typography from '@material-ui/core/Typography';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 
 const styles = theme => ({
@@ -62,29 +63,29 @@ class ClickAway extends React.Component {
             {open ? (
               <Paper className={classes.paper}>
                 <div> <Typography variant="h6" color="primary" className={classes.grow}>
-                  HOME
+                <Link to="/">HOME</Link>
           </Typography>
                 </div>
                 <div>
                   <Typography variant="h6" color="primary" className={classes.grow}>
-                    FREE
+                  <Link to="/free/">FREE</Link>
           </Typography>
                 </div>
                 <div>
                   <Typography variant="h6" color="primary" className={classes.grow}>
-                    SHARE
+                  <Link to="/share/">SHARE</Link>
           </Typography></div>
                 <div>
                   <Typography variant="h6" color="primary" className={classes.grow}>
-                    REACH
+                  <Link to="/reach/">REACH</Link>
           </Typography> </div>
                 <div>
                   <Typography variant="h6" color="primary" className={classes.grow}>
-                    PARK
+                  <Link to="/park/">PARK</Link>
           </Typography> </div>
                 <div>
                   <Typography variant="h6" color="primary" className={classes.grow}>
-                    CHARGE
+                  <Link to="/charge/">CHARGE</Link>
           </Typography> </div>
 
               </Paper>
