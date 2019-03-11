@@ -6,11 +6,12 @@ Create an react app with UI/UX principles using the main requirements
 
 ### USER STORY
 
-Development of cross-platform websites for our apps
-Development of management systems for the administration of marketing campaigns
-Preferably using technologies as:
-js, ES6, Babel, Webpack, Redux, Functional JS HTML and SCSS
-Continuous development of features
+-Use React (Create React App)
+-Use Material UI 
+-Use Google Maps API
+-Deploy in Amazon S3
+-Use React Router
+
 
 ## Inpiration
 Home Page

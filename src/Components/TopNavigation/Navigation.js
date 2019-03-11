@@ -50,7 +50,7 @@ function Navigation(props) {
       </Link>
           </Typography>
           <Typography>
-          <Link href="https://martinreboredo.com" className={classes.link} color="inherit" target="_blank" >
+          <Link href="https://martinreboredo.com" className={classes.link} color="inherit" target="_blank">
           <AccountCircle> Martin Portfolio </AccountCircle>
         
       </Link>
