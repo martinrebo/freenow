@@ -1,10 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Objective
+## Objectives
 
-Create an react app with UI/UX principles using the main requirements
+Apply for Linkedin JOB: https://www.linkedin.com/jobs/view/1005486021/
+Create an react app with UI/UX principles and User Story
 
 ### USER STORY
+
+Navigate through Single Page App with the main pages. 
 
 -Use React (Create React App)
 -Use Material UI 
@@ -13,7 +16,7 @@ Create an react app with UI/UX principles using the main requirements
 -Use React Router
 
 
-## Inpiration
+## Inspiration
 Home Page
 https://www.your-now.com/
 
@@ -46,4 +49,11 @@ Reach
 
 ## Help Articles
 https://medium.com/@omgwtfmarc/deploying-create-react-app-to-s3-or-cloudfront-48dae4ce0af
+
+
+## Future Improvements
+
+Solve Unused Warnings of the console
+Add User Login + Backend
+Improve Google Api Experience
 
